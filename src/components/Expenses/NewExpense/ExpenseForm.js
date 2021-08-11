@@ -62,6 +62,9 @@ function ExpenseForm(props) {
         </div>
       </div>
       <div className="nex-expense__actions">
+        <button type="button" onClick={props.stopEditHandler}>
+          Cancel
+        </button>
         <button type="submit">Add Expense</button>
       </div>
     </form>
